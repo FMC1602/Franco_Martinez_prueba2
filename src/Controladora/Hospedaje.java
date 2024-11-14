@@ -71,7 +71,7 @@ public class Hospedaje {
         int rutInt = Integer.parseInt(rut);
         for (MedioDeAlojamiento alojamiento : alojamientos) {
             if (alojamiento.getDatosCliente().getRutCliente() == rutInt) {
-                System.out.println("El nuevo valor es: $" + alojamiento.valorACancelar());
+                System.out.println("El valor es: $" + alojamiento.valorACancelar());
             }
 
         }

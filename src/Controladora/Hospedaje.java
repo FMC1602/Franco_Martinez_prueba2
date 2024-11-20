@@ -41,8 +41,11 @@ public class Hospedaje {
         int rutInt = Integer.parseInt(rut); // Cambiamos el nombre a rutInt
         for (MedioDeAlojamiento alojamiento : alojamientos) {
             if (alojamiento.getDatosCliente().getRutCliente() == rutInt) {
-                System.out.println("Cliente encontrado: " + alojamiento.getDatosCliente().getNombre());
-                System.out.println("Datos del alojamiento: " + alojamiento.toString());
+                System.out.println("Datos del alojamiento: ");
+                System.out.println("El subtotal es: " + alojamiento.subTotal());
+                System.out.println("El adicional es: " +alojamiento.adicional());
+                System.out.println("El descuento es: " +alojamiento.bonoDescuento());
+                System.out.println("El valor es: $" + alojamiento.valorACancelar());
                 return;
             }
         }

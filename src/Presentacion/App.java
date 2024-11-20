@@ -109,7 +109,7 @@ public class App {
                         controlador.agregarAlojamiento(cabagna);
 
                     } else if (tipoAlojamiento.equalsIgnoreCase("Carpa")) {
-                        System.out.print("Ingrese la capacidad de la cabaña: ");
+                        System.out.print("Ingrese la capacidad de la carpa: ");
                         int cantidadPersonas = scanner.nextInt();
                         scanner.nextLine();
 

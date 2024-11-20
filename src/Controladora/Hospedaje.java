@@ -94,6 +94,8 @@ public class Hospedaje {
                 } else {
                     System.out.println("No hay aumento que aplicar");
                 }
+            } else {
+                System.out.println("No hay aumento que aplicar");
             }
         }
     }
